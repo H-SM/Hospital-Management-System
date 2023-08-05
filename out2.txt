@@ -1,0 +1,2 @@
+{"_id":"642b03f1d51f73d6ba5f854c","patient_name":"sidhant","age":20.0,"disease":"cancer"}
+{"_id":"642b9e5dd51f73d6ba5f854d","patient_name":"harman","age":20.0,"disease":"aids"}

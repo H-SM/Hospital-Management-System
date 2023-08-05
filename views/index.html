@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Records Looker</title>
+
+    <link rel="stylesheet" href="../static/style.css">
+
+
+
+    <link rel="shortcut icon" href="./assets/img/favicon-removebg-preview.png" type="image/x-icon">
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- <link href="../static/bootstrap.css" rel="stylesheet"> -->
+    <!-- FONT  -->
+    <!-- <link rel="stylesheet" href="../fonts/sf-mono/style.css">
+    <link rel="stylesheet" href="../fonts/neon-font/Neoneon.otf"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <!-- FAVICON -->
+
+    <!-- FONT AWESOME -->
+    <script src="https://use.fontawesome.com/46bf41fdfd.js"></script>
+
+    <!-- ICONIFY -->
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+</head>
+
+<body style="background-color: #0A192F;">
+    <!-- <nav class="navbar navbar-expand-lg fixed-top px-lg-3 pt-lg-3 px-md-2 pt-md-3 navbar-expand-md"
+    aria-label="Main navigation" style="background-color: #0A192F;color: #64ffda;"> -->
+    <!-- navbar-expand-sm -->
+    <nav class="navbar navbar-expand-sm fixed-top">
+        <div class=" collapse navbar-collapse justify-content-end" id="navbarsExampleDefault">
+            <!-- style="background-color: #0A192F;" -->
+            <ul class="nav-list ml-auto"> <!-- added ml-auto class -->
+
+                <!-- aria-current="page"  -->
+                <li class="nav-item">
+                    <a class="nav-link mx-1" href="#about">01.
+                        <span>Input</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-1" href="#our_output">02. <span>Output</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-1" href="#our_document">03. <span>Documentation</span> </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-1" href="#our_team">04. <span>Our Team</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-1" href="#contact_us0">05. <span>Contact Us</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="content">
+        <div class="social-icon left">
+            <a href="https://www.linkedin.com/in/harman-singh-hsm/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://instagram.com/hsmpaaji" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://github.com/H-SM" target="_blank"><i class="fa fa-github"></i></a>
+            <div class="line"></div>
+        </div>
+        <div class="container middle">
+            <div class="hero-section">
+                <p>Hi, this is</p>
+                <h2>Hospital Management System</h2>
+                <h3 class="changing-text">A Safe Way</h3>
+                <p class="description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae facere non esse, nostrum
+                    sapiente eligendi repellat labore ratione! Nam dolore pariatur, obcaecati, quas recusandae soluta
+                    velit labore, minus sed sequi optio a ea expedita?
+                </p>
+            </div>
+
+
+
+            <div class="differencer" style="height: 2em;" id="about-differencer">
+            </div>
+
+            <div class="about-section" id="about" style="height:max-content">
+                <div class="about-heading mx-0 mx-md-5 mx-lg-5 px-sm-0">
+                    <span class="neon-color">01. </span>
+                    <span class="grey-color"> Input</span>
+                    <div class="grey-line-cont">
+                        <span class="grey-line"></span>
+                    </div>
+                </div>
+                <br>
+                <div class="hero-section">
+                    <p class="description righter">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae facere non esse, nostrum
+                        sapiente eligendi repellat labore ratione! Nam dolore pariatur, obcaecati, quas recusandae
+                        soluta velit labore, minus sed sequi optio a ea expedita?
+                    </p>
+                </div>
+            </div>
+            <div class="content-input" id="content-inp">
+                <form action="#" id="send-container">
+                    <div class="input_container">
+                        <div class="mb-3">
+                            <!-- <label for="formFile" class="form-label">Default file input example</label> -->
+                            <label for="*" class="drop-container">
+                                <span class="drop-title">Drop files here</span>
+                                or
+                                <input class="form-control form-input-inner" type="file" name="userFile"
+                                    id="userFile" />
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="hero-section">
+                        <button class="btn-1 text-center" id="this-submit-button" type="submit"> Submit </button>
+                    </div>
+
+                    <div class="text_area_container">
+                        <textarea id="input_textarea" class='inputDisplay all_textarea' cols="60" rows="20"
+                            placeholder="text will appear here"></textarea>
+                    </div>
+                </form>
+            </div>
+
+            <div class="differencer" style="height: 2em;" id="about-differencer">
+            </div>
+
+            <div class="about-section" id="our_output" style="height:max-content">
+                <div class="about-heading mx-0 mx-md-5 mx-lg-5 px-sm-0">
+                    <span class="neon-color">02. </span>
+                    <span class="grey-color"> Output</span>
+                    <div class="grey-line-cont">
+                        <span class="grey-line"></span>
+                    </div>
+                </div>
+                <br>
+
+                <div class="output_container" id="outp_container">
+
+                    <div class="hero-section">
+                        <p class="description righter">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae facere non esse,
+                            nostrum sapiente eligendi repellat labore ratione! Nam dolore pariatur, obcaecati, quas
+                            recusandae soluta velit labore, minus sed sequi optio a ea expedita?<br><br>The output
+                            of the data (after processing):</p>
+                    </div>
+                    <div class="text_area_container">
+                        <textarea id="response_field" class='all_textarea' cols="60" rows="20"
+                            placeholder="text output will appear here (will be converted to a txt file)..."></textarea>
+                    </div>
+                    <div class="file_download">
+                        <div class="hero-section">
+                            <div class="input_looker">
+                                <label class="file_inp_label"> Enter your file-name: </label>
+                                <input type="text" name="out_filename" id="out_filename" class="file_namer"
+                                    value="record.txt" />
+                            </div>
+                            <div class="button_looker">
+                                <button type="button" id="downloadButton" class="btn-1 text-center">Download
+                                    File</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="differencer" style="height: 2em;" id="about-differencer">
+            </div>
+
+            <div class="about-section" id="our_document" style="height:max-content">
+                <div class="about-heading mx-0 mx-md-5 mx-lg-5 px-sm-0">
+                    <span class="neon-color">03. </span>
+                    <span class="grey-color"> Documentation</span>
+                    <div class="grey-line-cont">
+                        <span class="grey-line"></span>
+                    </div>
+                    <div class="hero-section">
+                        <p class="description righter-nobottom">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae facere
+                            non esse, nostrum sapiente eligendi repellat labore ratione! Nam dolore
+                            pariatur, obcaecati, quas recusandae soluta velit labore, minus sed sequi
+                            optio a ea expedita?<br>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus nostrum
+                            sint nam voluptates porro inventore eligendi animi incidunt a ducimus?
+                            Ratione, dolor at? Doloremque quasi nemo et sed, reprehenderit, inventore
+                            obcaecati id ea similique, blanditiis excepturi distinctio eos impedit odit
+                            vero! Culpa eaque impedit numquam.<br>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, voluptatibus
+                            laborum omnis ipsum aut quas quis maiores fuga amet quia assumenda et
+                            excepturi commodi alias minima nulla. Itaque ut aperiam nulla voluptatum
+                            nemo obcaecati ab officia tempora voluptate soluta! Molestias ab neque sit.
+                            Amet molestiae animi, delectus officiis molestias id architecto nostrum odio
+                            perferendis ea ut maxime totam magni enim nesciunt expedita maiores numquam!
+                            Maxime, accusamus facere enim fugiat quis quibusdam natus deleniti nobis
+                            nisi vero, totam sed vel dicta saepe iure in excepturi. Ab cum animi, quos
+                            unde sit fugit consequuntur sequi laborum expedita aliquid asperiores
+                            praesentium odit nisi ex? At dignissimos soluta corporis repellendus ullam
+                            sint amet distinctio! Molestiae voluptatum voluptatem eligendi est facere
+                            impedit repellendus eius mollitia neque pariatur, a accusamus possimus esse
+                            autem id? Velit blanditiis corrupti officia adipisci voluptate, dolorum
+                            aperiam ducimus aut sed expedita assumenda facere magni deserunt. Odit
+                            nostrum nobis blanditiis repudiandae necessitatibus, quas minima ipsam quia.
+                            Voluptas rem harum rerum quis repudiandae.<br>
+                        </p>
+                    </div>
+
+                    <button class="learn-btn" type="button"> Learn More </button>
+                </div>
+            </div>
+            <div class="differencer" style="height: 2em;" id="about-differencer">
+            </div>
+
+            <div class="about-section" id="our_team" style="height:max-content">
+                <div class="about-heading mx-0 mx-md-5 mx-lg-5 px-sm-0">
+                    <span class="neon-color">04. </span>
+                    <span class="grey-color"> Our Team</span>
+                    <div class="grey-line-cont">
+                        <span class="grey-line"></span>
+                    </div>
+                </div>
+                <div class="hero-section">
+                    <p class="description righter-nobottom">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam accusantium
+                        corporis, corrupti quam id voluptatem dolor dolorem, qui et consequuntur,
+                        debitis sequi! Animi quam tempore ratione, mollitia fugiat necessitatibus ab
+                        distinctio debitis, illum, dolorem aspernatur! Adipisci inventore illo quo
+                        error vero provident deleniti laudantium, magni accusamus excepturi harum a
+                        animi? Mollitia ratione cupiditate, sunt, temporibus suscipit, quis
+                        obcaecati facere hic adipisci totam dicta vero corporis at fuga inventore
+                        consectetur pariatur maiores! Dolore, dolor praesentium. Cupiditate commodi
+                        beatae ullam perspiciatis eaque officiis magni maiores! Incidunt quo culpa
+                        eligendi laboriosam! Eum totam culpa deleniti obcaecati praesentium nihil
+                        sed debitis quia natus delectus ex quasi, perspiciatis <br>
+                        <br>
+                        <font color="#50ccaf" size="25px">Our Team :</font>
+                    </p>
+                </div>
+
+                    <div class="container-box">
+                        <div class="element1">
+                        <div class="team_mem">a</div>
+                        <span>Harman Singh</span>
+                        <p>some job</p>
+                        </div>
+                        <div class="element1">
+                        <div class="team_mem">b</div>
+                        <span>Sidd</span>
+                        <p>some job</p>
+                        </div>
+                        <div class="element1">
+                        <div class="team_mem">c</div>
+                        <span>Vinay</span>
+                        <p>some job</p>
+                        </div>
+                        <div class="element1">
+                        <div class="team_mem">d</div>
+                        <span>Abel</span>
+                        <p>some job</p>
+                        </div>
+                    </div>
+            </div>
+            <div class="differencer" style="height: 2em;" id="about-differencer">
+            </div>
+
+            <div class="about-section" id="contact_us0" style="height:max-content">
+                <div class="about-heading mx-0 mx-md-5 mx-lg-5 px-sm-0">
+                    <span class="neon-color">05. </span>
+                    <span class="grey-color"> Contact Us</span>
+                    <div class="grey-line-cont">
+                        <span class="grey-line"></span>
+                    </div>
+                </div>
+                <div class="hero-section">
+                    <form action="mailto:thechampthapa@gmail.com" method="post" enctype="text/plain">
+                        <div class="description-former righter-form">
+                            Name: <br><input type="text" name="sname" placeholder="enter your name"><br>
+                            Subject:<br><input type="text" name="ssubject" placeholder="related subject of issue"><br>
+                        </div>
+                        <input class='learn-btn last-btn-placer' type="submit" value="Send">
+                    </form>
+                </div>
+            </div>
+            <div class="differencer" style="height: 2em;" id="about-differencer">
+            </div>
+        </div>
+        <!-- <div id="response_field">heyu</div> -->
+        <div class='footer padding_hm'>
+            <span>Designed by @HSM </span>
+        </div>
+    </div>
+    <div class="text-right right">
+        <span class="line2"></span>
+        <p>
+            HSM-here
+        </p>
+    </div>
+    <script type="module" src="../static/script_home.js"></script>
+    <script type="module" src="../static/downloadfile.js"></script>
+    <script src="../static/changing_text.js"></script>
+
+</body>
+</html>
